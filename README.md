@@ -43,7 +43,7 @@ When you Instantiate a `Slouch.Model`, the initial attributes, whether they come
     model2.set('age', 'is just a number') # throws Error
 
 ### Slouch.Model currently will serialize and de-serialize using its type knowledge
-Aside: it might be a good to pull this into a separate project.
+Aside: it might be good to extract this into a separate project.
 
     model1.set('coach', {color: 'gold', name: 'Carl', age: 56}) # Everything's cool.
     model1.get('coach').get('name') # is 'Carl'
