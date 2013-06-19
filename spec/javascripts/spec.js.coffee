@@ -1,6 +1,7 @@
 #= require underscore
 #= require backbone
 #= require jquery
-#= require backbone.bumpers
+#= require moment
+#= require slouch
 #= require_self
 #= require_tree ./
