@@ -40,7 +40,7 @@ window.Slouch =
 
   isPrimative: (val) ->
     _.isArray(val) or
-      val.constructor isnt Object or
+      val.constructor is Object or
       _.isFunction(val) or
       _.isString(val) or
       _.isNumber(val) or
